@@ -2,7 +2,7 @@ package com.ifmis.dto;
 
 public class ProfileResponse {
 
-    private Long userId;
+    private Long id;
     private String username;
     private String name;
     private String designation;
@@ -12,13 +12,13 @@ public class ProfileResponse {
     public ProfileResponse() {
     }
 
-    public ProfileResponse(Long userId,
+    public ProfileResponse(Long id,
                            String username,
                            String name,
                            String designation,
                            String department,
                            String role) {
-        this.userId = userId;
+        this.id = id;
         this.username = username;
         this.name = name;
         this.designation = designation;
@@ -27,11 +27,11 @@ public class ProfileResponse {
     }
 
     public Long getUserId() {
-        return userId;
+        return id;
     }
 
-    public void setUserId(Long userId) {
-        this.userId = userId;
+    public void setUserId(Long id) {
+        this.id = id;
     }
 
     public String getUsername() {
