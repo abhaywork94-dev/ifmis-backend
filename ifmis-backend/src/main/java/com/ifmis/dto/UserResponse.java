@@ -3,7 +3,7 @@ package com.ifmis.dto;
 public class UserResponse {
 
     private Long id;
-    private String employeeId;
+    private String username;
     private String name;
     private String role;
     private String department;
@@ -12,13 +12,13 @@ public class UserResponse {
     }
 
     public UserResponse(Long id,
-                        String employeeId,
+                        String username,
                         String name,
                         String role,
                         String department) {
 
         this.id = id;
-        this.employeeId = employeeId;
+        this.username = username;
         this.name = name;
         this.role = role;
         this.department = department;
@@ -33,11 +33,11 @@ public class UserResponse {
     }
 
     public String getEmployeeId() {
-        return employeeId;
+        return username;
     }
 
-    public void setEmployeeId(String employeeId) {
-        this.employeeId = employeeId;
+    public void setEmployeeId(String username) {
+        this.username = username;
     }
 
     public String getName() {
