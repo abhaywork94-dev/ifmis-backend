@@ -24,19 +24,19 @@ public class UserResponse {
         this.department = department;
     }
 
-    public Long getUserId() {
+    public Long getId() {
         return id;
     }
 
-    public void setUserId(Long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public String getEmployeeId() {
+    public String getUsername() {
         return username;
     }
 
-    public void setEmployeeId(String username) {
+    public void setUsername(String username) {
         this.username = username;
     }
 
